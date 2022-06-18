@@ -1,0 +1,13 @@
+[package]
+name = "testfile"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+solana-program = "1.10.7" 
+
+[lib]
+crate-type = ["cdylib", "lib"]
