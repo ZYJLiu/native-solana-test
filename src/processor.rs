@@ -148,7 +148,7 @@ pub fn add_movie_review(
         ),
         &[
             initializer.clone(),
-            pda_account.clone(),
+            pda_counter.clone(),
             system_program.clone(),
         ],
         &[&[pda.as_ref(), "comment".as_ref(), &[bump_seed]]],
